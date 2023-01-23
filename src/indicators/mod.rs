@@ -71,3 +71,6 @@ pub use self::on_balance_volume::OnBalanceVolume;
 mod volume_weighted_average_price;
 pub use self::volume_weighted_average_price::VolumeWeightedAveragePrice;
 pub use self::volume_weighted_average_price::VolumeWeightedAveragePriceBands;
+
+mod supertrend;
+pub use self::supertrend::Supertrend;
